@@ -32,6 +32,9 @@
     <None Include="main.qml">
       <Filter>Source Files</Filter>
     </None>
-
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
   </ItemGroup>
 </Project>
