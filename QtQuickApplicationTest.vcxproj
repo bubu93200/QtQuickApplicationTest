@@ -52,10 +52,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <None Include="readme.md" />
     <QtRcc Include="qml.qrc" />
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
     <None Include="main.qml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libmscore.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
