@@ -363,3 +363,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/x64/Debug/QtQuickA.DE308EFE.tlog/QtQuickApplicationTest.write.1u.tlog
