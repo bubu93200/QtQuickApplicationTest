@@ -1,5 +1,2 @@
-﻿  Reading Qt configuration (C:/Qt/5.15.2/msvc2019_64/bin/qmake)
-  rcc qml.qrc
-  main.cpp
-  qrc_qml.cpp
-  QtQuickApplicationTest.vcxproj -> C:\Users\bubu\source\repos\TestRtMidi\x64\Debug\QtQuickApplicationTest.exe
+﻿  myqmlcomponent.cpp
+C:\Users\bubu\source\repos\QtQuickApplicationTest\libmscore\mscore.h(16,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'config.h' : No such file or directory

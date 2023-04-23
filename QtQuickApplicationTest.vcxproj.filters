@@ -41,4 +41,12 @@
   <ItemGroup>
     <Library Include="libmscore.lib" />
   </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="myqmlcomponent.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
 </Project>
