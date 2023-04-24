@@ -1,2 +1,35 @@
-﻿  myqmlcomponent.cpp
-C:\Users\bubu\source\repos\QtQuickApplicationTest\libmscore\mscore.h(16,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'config.h' : No such file or directory
+﻿La génération a démarré 24/04/2023 23:08:34.
+La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\bubu\source\repos\QtQuickApplicationTest\QtQuickApplicationTest.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "x64\Debug\QtQuickA.DE308EFE.tlog\unsuccessfulbuild".
+       QtRccSetModified:
+       La cible est ignorée "QtRccSetModified", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+       QtRccFilterSetModified:
+       La cible est ignorée "QtRccFilterSetModified" car elle ne comporte pas de sortie.
+       QtRccFilter:
+       La cible est ignorée "QtRccFilter" car elle ne comporte pas de sortie.
+       QtQmlSetModified:
+       La cible est ignorée "QtQmlSetModified" car elle ne comporte pas de sortie.
+       QtQmlCacheItem:
+       La cible est ignorée "QtQmlCacheItem" car elle ne comporte pas de sortie.
+       QtMocSetModified:
+       La cible est ignorée "QtMocSetModified", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+       QtMoc:
+       La cible est ignorée "QtMoc", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+       ClCompile:
+         Toutes les sorties sont à jour.
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\CL.exe /c /Ix64\Debug\moc /IC:\Users\bubu\source\repos\QtQuickApplicationTest\ /IC:\Users\bubu\AppData\Local\Temp\wzo3jaom.zxi /IC:\Qt\5.15.2\msvc2019_64\include /IC:\Qt\5.15.2\msvc2019_64\include\QtQuick /IC:\Qt\5.15.2\msvc2019_64\include\QtGui /IC:\Qt\5.15.2\msvc2019_64\include\QtANGLE /IC:\Qt\5.15.2\msvc2019_64\include\QtQmlModels /IC:\Qt\5.15.2\msvc2019_64\include\QtQml /IC:\Qt\5.15.2\msvc2019_64\include\QtNetwork /IC:\Qt\5.15.2\msvc2019_64\include\QtCore /IC:\Users\bubu\AppData\Local\Temp\wzo3jaom.zxi /I/include /I"C:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc" /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_QUICK_LIB /D QT_GUI_LIB /D QT_QMLMODELS_LIB /D QT_QML_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W1 /Gd /TP /FC /errorReport:prompt -Zc:rvalueCast -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus myqmlcomponent.cpp
+         myqmlcomponent.cpp
+     1>C:\Users\bubu\source\repos\QtQuickApplicationTest\libmscore\mscore.h(16,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'config.h' : No such file or directory
+     1>Génération du projet "C:\Users\bubu\source\repos\QtQuickApplicationTest\QtQuickApplicationTest.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+       "C:\Users\bubu\source\repos\QtQuickApplicationTest\QtQuickApplicationTest.vcxproj" (Build cible) (1) ->
+       (ClCompile cible) -> 
+         C:\Users\bubu\source\repos\QtQuickApplicationTest\libmscore\mscore.h(16,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'config.h' : No such file or directory
+
+    0 Avertissement(s)
+    1 Erreur(s)
+
+Temps écoulé 00:00:02.98
