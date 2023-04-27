@@ -53,10 +53,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <QtMoc Include="myqmlcomponent.cpp">
-      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
-      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
-    </QtMoc>
     <None Include="readme.md" />
     <QtRcc Include="qml.qrc" />
     <None Include=".gitattributes" />
@@ -67,7 +63,10 @@
     <Library Include="libmscore.lib" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="CMakeLists.txt" />
+    <Text Include="CMakeLists.txt.000" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWindows.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

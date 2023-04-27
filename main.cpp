@@ -1,5 +1,8 @@
+// Ce code est le point de démarrage
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include "MainWindows.h"
 
 int main(int argc, char *argv[])
 {
@@ -16,3 +19,6 @@ int main(int argc, char *argv[])
   
     return app.exec();
 }
+
+
+

@@ -42,11 +42,11 @@
     <Library Include="libmscore.lib" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="myqmlcomponent.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
+    <Text Include="CMakeLists.txt.000" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="CMakeLists.txt" />
+    <QtMoc Include="MainWindows.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
